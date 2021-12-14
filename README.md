@@ -1,0 +1,2 @@
+# MojiCounter
+moji count
