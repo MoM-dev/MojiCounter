@@ -1,0 +1,104 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+main {
+    display: inline-block;
+    width: 100%;
+    padding: 2% 5%;
+    box-sizing: border-box;
+}
+
+.topText {
+    width: 50%;
+    padding: 3%;
+    margin: 0 25%;
+    font-size: 25px;
+    text-align: center;
+    color: #4380bd;
+    border-bottom: 1px solid;
+    border-color: #4380bd;
+    box-sizing: border-box;
+}
+
+.inputBox {
+    width: 100%;
+    margin: 50px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#TextBox {
+    width: 80%;
+    height: 300px;
+    margin: 20px 10%;
+    padding: 3%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border-color: #4380bd;
+}
+
+#checkButton {
+    width: 250px;
+    height: 50px;
+    size: 40px;
+    background-color: white;
+    color: #4380bd;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #4380bd;
+}
+
+#msg {
+    width: 50%;
+    size: 20px;
+    margin: 0 25%;
+    padding: 20px 15px;
+    text-align: center;
+    background-color: #4380bd;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* 480px以下に適用されるCSS（スマホ用） */
+@media screen and (max-width: 480px) {
+	main {
+        padding: 4% 2%;
+    }
+    
+    .topText {
+        width: 80%;
+        padding: 5%;
+        margin: 0 10%;
+        font-size: 25px;
+    }
+
+    .inputBox {
+        margin: 30px 0;
+    }
+    
+    #TextBox {
+        width: 95%;
+        height: 450px;
+        margin: 10px 2.5%;
+        padding: 5%;
+        font-size: 18px;
+    }
+    
+    #checkButton {
+        width: 80%;
+        height: 70px;
+        font-size: 20px;
+    }
+    
+    #msg {
+        width: 95%;
+        font-size: 20px;
+        margin: 0 2.5%;
+        padding: 20px 15px;
+    }
+}
