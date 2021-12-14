@@ -1,2 +1,2 @@
 # MojiCounter
-moji count
+https://mom-dev.github.io/MojiCounter/
