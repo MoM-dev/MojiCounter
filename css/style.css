@@ -42,7 +42,6 @@ main {
 #checkButton {
     width: 250px;
     height: 50px;
-    size: 40px;
     background-color: white;
     color: #4380bd;
     font-weight: bold;
@@ -53,7 +52,6 @@ main {
 
 #msg {
     width: 50%;
-    size: 20px;
     margin: 0 25%;
     padding: 20px 15px;
     text-align: center;
@@ -83,7 +81,7 @@ main {
     
     #TextBox {
         width: 95%;
-        height: 450px;
+        height: 400px;
         margin: 10px 2.5%;
         padding: 5%;
         font-size: 18px;
